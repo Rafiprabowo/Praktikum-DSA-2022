@@ -11,7 +11,7 @@ tugas, 35% nilai UTS dan 45% nilai UAS. Setiap nilai yang dimasukkan mempunyai b
 0 ‐ 100. Ketika nilai akhir sudah didapatkan selanjutnya lakukan konversi nilai dengan 
 ketentuan sebagai berikut:
 
-<img src = "images/tabel-nilai.png">
+<img src = "images/tabel_nilai.png">
 
 ## Source code kode program Pemilihan
 ```import java.util.Scanner;
