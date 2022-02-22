@@ -1,4 +1,7 @@
 # Laporan Praktikum Pertemuan 1
+Nama: Muhamad Rafi Prabowo
+Kelas: TI-1G
+No absen : 20
 
 ## 2.2 Pemilihan
 Waktu percobaan : 30 menit
