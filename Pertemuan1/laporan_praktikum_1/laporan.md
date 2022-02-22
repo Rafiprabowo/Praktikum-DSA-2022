@@ -375,16 +375,28 @@ Panggil fungsi-fungsi tersebut pada fungsi main!
 ```
 ## Output kode program Menghitung Jarak, Kecepatan, dan Waktu.
 a. Menu (Untuk memilih rumus yang akan dihitung (kecepatan/jarak/waktu)
+
 <img src="images/run_tugas2.png">
+
 b. Menghitung hasil perhitungan Kecepatan
+
+
 <img src="images/run_kecepatan.png">
+
+
 c. Menghitung hasil perhitungan Jarak
+
 <img src="images/run_jarak.png">
+
+
 d. Menghitung hasil perhitungan Waktu
+
+
 <img src="images/run_waktu.png">
 
 ## Memanggil Fungsi 
 Create Fungsi
+
 <img src ="images/create_fungsi.png">
 
 ### Call Fungsi
