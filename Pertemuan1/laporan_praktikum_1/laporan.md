@@ -1,9 +1,8 @@
 # Laporan Praktikum Pertemuan 1
-Nama: Muhamad Rafi Prabowo
-Kelas: TI-1G
-No absen : 20
-
-## 2.2 Pemilihan
+### Nama: Muhamad Rafi Prabowo
+### Kelas: TI-1G
+### No absen : 20
+# 2.2 Pemilihan
 Waktu percobaan : 30 menit
 Materi pada praktikum ini telah dijelaskan pada matakuliah Dasar Pemrograman, Sehingga 
 didalam praktikum ini, tidak akan dilakukan langkah-langkah percobaan. Jawablah pertanyaan-pertanyaan yang ada berikut ini : 
@@ -17,7 +16,8 @@ ketentuan sebagai berikut:
 <img src = "images/tabel_nilai.png">
 
 ## Source code kode program Pemilihan
-```import java.util.Scanner;
+```java
+import java.util.Scanner;
 public class pemilihan {
     public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
@@ -62,10 +62,10 @@ public class pemilihan {
     }
 }
 ```
-## Output program Pemilihan
+# Output program Pemilihan
 <img src="images/run_pemilihan.png">
 
-## 2.3 Perulangan
+# 2.3 Perulangan
 Waktu percobaan : 30 menit
 Materi pada praktikum ini telah dijelaskan pada matakuliah Dasar Pemrograman. Sehingga 
 didalam praktikum ini, tidak akan dilakukan langkah-langkah percobaan. Jawablah pertanyaan-pertanyaan yang ada berikut ini : 
@@ -82,8 +82,8 @@ Contoh 2:
 Input NIM: 2041720002 maka n=12
 OUTPUT : senin selasa rabu kamis jumat sabtu minggu senin 
 selasa rabu kamis jumat
-## Source code kode program Perulangan
-```
+# Source code kode program Perulangan
+```java
 import java.util.Scanner;
 public class perulangan {
     public static void main(String[] args) {
@@ -141,7 +141,7 @@ Mawar -5. Maka berapakah total pendapatan dari RoyalGarden 1 jika semua Bunga
 Terjual Habis
 
 ## Source code kode program Array
-```
+```java
 public class array {
     public static void main(String[] args) {
         int aglonemaPrice=75_000,keladiPrice=50_000,alocasiaPrice=60_000,mawarPrice=10_000;
@@ -198,8 +198,8 @@ Pertanyaan
 pertanyaan praktikum bagian 2.4.
 2. Buatlah fungsi untuk pada pertanyaan bagian 2.4 untuk mengetahui jumlah Stock 
 berdasarkan jenis bunganya di seluruh Cabang
-## Source code program Fungsi
-```
+# Source code program Fungsi
+```java
 import  java.util.Scanner;
 public class Fungsi {
     public static void main(String[] args) {
@@ -282,7 +282,7 @@ berdasarkan jenis bunganya di seluruh Cabang
 <img src = "images/run_fungsi2.png">
 
 
-## 3. Tugas
+# 3. Tugas
 ### Waktu pengerjaan : 50 menit
 1. Sebuah jasa cuci pakaian Smile Laundry memiliki aturan biaya seperti beriku ini 
 - Tarif untuk setiap 1kg pakaian adalah Rp. 4.500, –
@@ -292,9 +292,9 @@ Pada hari ini laundy tersebut hanya memiliki 4 customer yaitu Ani, Budi, Bina, d
 membawa 4kg pakaian, budi membawa 15kg pakaian, Bina membawa 6kg, dan terakir Cita 
 membawa 11kg. Berapakah pendapat Smile laundry pada hari itu? Buatlah programnya
 
-## Source code kode program Tugas 1 Hitung pendapatan cucian.
+# Source code kode program Tugas 1 Hitung pendapatan cucian.
 
-```
+```java
 public class Tugas1 {
     public static void main(String[] args) {
         int tarif=4500;
@@ -323,7 +323,7 @@ public class Tugas1 {
 }
 
 ```
-## Output kode program Tugas 1 Smile Laundry.
+# Output kode program Tugas 1 Smile Laundry.
 <img src = "images/run_tugas1.png">
 2. Buat program untuk menghitung rumus kecepatan, jarak, dan waktu
 Berikut adalah persamaan untuk menghitung rumus tersebut :
@@ -348,8 +348,10 @@ c. Menghitung hasil perhitungan Jarak
 d. Menghitung hasil perhitungan Waktu
 Panggil fungsi-fungsi tersebut pada fungsi main!
 
-## Source code program Tugas 2 Menghitung Rumus.
-```public class Tugas1 {
+
+# Source code program Tugas 2 Menghitung Rumus.
+```java
+public class Tugas1 {
     public static void main(String[] args) {
         int tarif=4500;
         double diskon = 0.05;
@@ -376,7 +378,7 @@ Panggil fungsi-fungsi tersebut pada fungsi main!
     }
 }
 ```
-## Output kode program Menghitung Jarak, Kecepatan, dan Waktu.
+# Output kode program Menghitung Jarak, Kecepatan, dan Waktu.
 a. Menu (Untuk memilih rumus yang akan dihitung (kecepatan/jarak/waktu)
 
 <img src="images/run_tugas2.png">
@@ -397,21 +399,21 @@ d. Menghitung hasil perhitungan Waktu
 
 <img src="images/run_waktu.png">
 
-## Memanggil Fungsi 
+# Memanggil Fungsi 
 Create Fungsi
 
 <img src ="images/create_fungsi.png">
 
 ### Call Fungsi
 a. Fungsi menghitung Jarak
-```
+```java
  System.out.println("Nilai dari Jarak adalah : "+hitungJarak(velocity,second)+"/m");
 ```
 b. Fungsi menghitung Kecepatan
-```
+```java
 System.out.println("Nilai dari Kecepatan adalah : "+hitungKecepatan(distance,second)+"m/s");
 ```
 c. Fungsi menghitung Waktu
-```
+```java
 System.out.println("Nilai dari Waktu adalah : "+hitungWaktu(distance,velocity)+"/s");
 ```
