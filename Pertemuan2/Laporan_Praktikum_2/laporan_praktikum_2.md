@@ -95,6 +95,7 @@ program dibawah ini?
 
 3. Coba buat objek dengan nama b3 dengan menggunakan konstruktor berparameter dari class 
 Barang.
+        =>
 
 
 
