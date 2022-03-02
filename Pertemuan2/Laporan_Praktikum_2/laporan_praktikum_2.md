@@ -125,6 +125,8 @@ Barang.
 
 Output Kode Program
 
+<img src = "images/Screenshot2022-03-03063931">
+
 
 
 
@@ -178,6 +180,7 @@ Source code class Barang Main
 ```
 
 Output kode Program
+
 
 
 
