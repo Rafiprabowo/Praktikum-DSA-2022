@@ -95,7 +95,91 @@ program dibawah ini?
 
 3. Coba buat objek dengan nama b3 dengan menggunakan konstruktor berparameter dari class 
 Barang.
-        =>
+        => Barang b3 = new Barang("Red Dragron","Mechanical Keyboard",300000,5);
+
+    
+### Verivikasi hasil percobaan
+
+ Kode program
+
+```java
+      Barang b1 = new Barang();
+        if(b1.stok==0){
+            System.out.println("Stok Kosong");
+        }
+        b1.nama = "Corsair";
+        b1.jenis = "DDR 4";
+        b1.stok = 0;
+        b1.hargaSatuan = 25_000;
+        b1.tampilanBarang();
+        // b1.tambahStok(2);
+        b1.kurangiStok(3);
+        double a = b1.hitungHargaTotal(4);
+        System.out.println(a);
+
+
+        Barang b2 = new Barang("Logitech", "Wireless Mouse", 15_0000, 25 );
+        b2.tampilanBarang();
+        Barang b3 = new Barang("Red Dragron","Mechanical Keyboard",300000,5);
+```
+
+Output Kode Program
+
+
+
+
+### 2.5 Latihan Praktikum
+
+## Latihan 1
+
+Source code class Barang
+
+```java
+ class Barang {
+    String nama;
+    int hargaSatuan;
+    int jumlah;
+
+    int hargaTotal(){
+        return hargaSatuan*jumlah;
+    }
+    int hitungDiskon(){
+        int diskon = hargaTotal();
+        if(diskon>100_000){
+            diskon = diskon*10/100;
+        }else if(diskon >= 5_0000 && diskon <=10_0000 ){
+            diskon = diskon*5/100;
+        }else {
+            diskon = 0;
+        }
+        return  diskon;
+    }
+    int hitungHargaBayar(){
+        return (hargaTotal()-hitungDiskon());
+    }
+```
+
+Source code class Barang Main
+```java
+ public static void main(String[] args) {
+        Barang b1 = new Barang();
+        b1.nama = "Red Dragon Keyboard";
+        b1.hargaSatuan = 35_0000;
+        b1.jumlah = 3;
+        int a = b1.hargaTotal();
+        int b = b1.hitungDiskon();
+        int c = b1.hitungHargaBayar();
+        System.out.printf("Nama Barang = %-10s\n",b1.nama);
+        System.out.printf("Harga Satuan = %-10s\n",b1.hargaSatuan);
+        System.out.printf("Jumlah Stok = %-10s \n",b1.jumlah);
+        System.out.printf("Harga total = %-10s \n",a);
+        System.out.printf("Diskon yang didapat sebesar = %-10s \n",b);
+        System.out.printf("Harga Bayar = %-10s \n",c);
+```
+
+Output kode Program
+
+
 
 
 
