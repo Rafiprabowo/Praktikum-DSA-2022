@@ -1,5 +1,5 @@
 # Laporan Praktikum Algoritman dan Struktur Data
-author : Muhamad Rafi Prabowo (TI-1G) 2141720239
+author : Muhamad Rafi Prabowo 2141720239 (TI-1G) 
 ## Jawaban Pertanyaan
 
 ### 2.2 Deklarasi Class, Atribut, dan Method
