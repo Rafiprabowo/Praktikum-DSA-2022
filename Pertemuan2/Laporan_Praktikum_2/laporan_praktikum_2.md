@@ -125,8 +125,9 @@ Barang.
 
 Output Kode Program
 
-<img src = "images/Screenshot2022-03-03063931">
 
+
+<img src="images/verifikasi.png">
 
 
 
@@ -183,7 +184,81 @@ Output kode Program
 
 
 
+<img src="images/latihan1.png">
 
+
+
+
+## Latihan 2
+
+Pacman Robot
+
+Source code class Pacman
+```java
+class Pacman {
+    int x;
+    int y;
+    int width;
+    int height;
+    // Function
+
+    void moveLeft(){
+    if( x > 0 && x <=width ){
+        x = x - 1;
+        System.out.println("move left , x now = "+x);
+    }else{
+        System.out.println("status : false");
+    }
+    }
+    void moveRight(){
+        if( x > 0 && x <=width ){
+            x = x + 1;
+            System.out.println("move right , x now = "+x);
+        }else {
+            System.out.println("status : false");
+        }
+    }
+    void moveUp(){
+    if(y > 0 && y<= height){
+        y=y-1;
+        System.out.println("move up , y now = "+y);
+    }else{
+        System.out.println("status :false");
+    }
+    }
+    void moveDown(){
+        if(y > 0 && y<=height){
+            y=y+1;
+            System.out.println("move down , y now = "+y);
+        }else{
+            System.out.println("status : false");
+        }
+    }
+    void printPosition(){
+        System.out.println("Koordinat x = "+x);
+        System.out.println("Koordinat y = "+y);
+        System.out.println("Width area = "+width);
+        System.out.println("Height area = "+height);
+        System.out.println("Lebar Area = "+height*width);
+        System.out.printf("Pacman Sekatang berada di koordinat x = %s dan koordinat y = %s\n",x,y);
+    }
+```
+
+Source code PacmanApp
+```java
+ Pacman pacman = new Pacman();
+        pacman.x = 2;
+        pacman.y = 5;
+        pacman.width = 4;
+        pacman.height = 4;
+        pacman.printPosition();
+```
+
+
+Output kode program
+
+
+<img src ="images/pacman.png">
 
 
 
