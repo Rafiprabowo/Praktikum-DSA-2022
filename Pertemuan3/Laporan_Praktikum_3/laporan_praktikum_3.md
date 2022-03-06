@@ -173,12 +173,7 @@ Output:
         Keliling = 61.92582403567252
 
 # 3.5 Latihan Praktikum
-# 1. Buatlah program yang dapat menghitung luas permukaan dan volume beberapa bangun ruang
-(minimal 3, jenis bangun luas bebas). Buatlah 3 (tiga) class sesuai dengan jumlah jenis bangun
-ruang. Dan buat satu main class untuk membuat array of objek yang menginputkan atribut-atribut
-yang ada menggunakan konstruktor semua bangun ruang tersebut.
-Keterangan : Buat looping untuk menginputkan masing-masing atributnya, kemudian tampilkan
-luas permukaan dan volume dari tiap jenis bangun ruang tersebut.
+# 1. Buatlah program yang dapat menghitung luas permukaan dan volume beberapa bangun ruang(minimal 3, jenis bangun luas bebas). Buatlah 3 (tiga) class sesuai dengan jumlah jenis bangun ruang. Dan buat satu main class untuk membuat array of objek yang menginputkan atribut-atribut yang ada menggunakan konstruktor semua bangun ruang tersebut. Keterangan : Buat looping untuk menginputkan masing-masing atributnya, kemudian tampilkan luas permukaan dan volume dari tiap jenis bangun ruang tersebut.
 
 ### Source code 3 bangun ruang
 
@@ -301,8 +296,7 @@ public class BangunMain {
 <img src = "images/output_3bangun.png">
 
 
-# 2. Sebuah perusahaan jual beli tanah membutuhkan sebuah program yang dapat memberitahu luas
-tanah. Program tersebut dapat menerima input jumlah tanah yang akan dihitung dan atribut 
+# 2. Sebuah perusahaan jual beli tanah membutuhkan sebuah program yang dapat memberitahu luastanah. Program tersebut dapat menerima input jumlah tanah yang akan dihitung dan atribut 
 
 ## Source Code
 
@@ -357,10 +351,7 @@ public class TanahMain {
 <img src = "images/output_tanah.png">
 
 
-3.Sebuah kampus membutuhkan program untuk menampilkan informasi mahasiswa berupa nama, 
-nim, jenis kelamin dan juga IPK mahasiswa. Program dapat menerima input semua informasi 
-tersebut, kemudian menampilkanya kembali ke user. Implementasikan program tersebut jika 
-dimisalkan terdapat 3 data mahasiswa yang tersedia. 
+# 3.Sebuah kampus membutuhkan program untuk menampilkan informasi mahasiswa berupa nama, nim, jenis kelamin dan juga IPK mahasiswa. Program dapat menerima input semua informasi tersebut, kemudian menampilkanya kembali ke user. Implementasikan program tersebut jika dimisalkan terdapat 3 data mahasiswa yang tersedia. 
 
 ## Source Code
 
